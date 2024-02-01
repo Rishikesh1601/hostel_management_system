@@ -167,7 +167,7 @@ padding: 30px 0 20px 10px;
 } 
 .navcontainer { 
 height: calc(100vh - 70px); 
-width: 250px; 
+width: 350px; 
 position: relative; 
 overflow-y: scroll; 
 overflow-x: hidden; 
@@ -194,7 +194,9 @@ background-color: #dadada;
 cursor: pointer; 
 } 
 .nav-img { 
-height: 30px; 
+height: 30px;
+width:30px;
+margin-right:5px; 
 } 
 
 .nav-upper-options { 
