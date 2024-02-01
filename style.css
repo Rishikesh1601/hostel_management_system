@@ -7,7 +7,7 @@
 margin: 0; 
 padding: 0; 
 box-sizing: border-box; 
-font-family: "Poppins", sans-serif; 
+font-family: sans-serif; 
 } 
 :root { 
 --background-color1: #fafaff; 
@@ -21,7 +21,7 @@ font-family: "Poppins", sans-serif;
 --two-use-color: #5500cb; 
 } 
 body { 
-background-color: var(--background-color4); 
+background-color: #f6f6f6; 
 max-width: 100%; 
 overflow-x: hidden; 
 } 
@@ -234,18 +234,26 @@ transition: transform 0.3s ease-in-out;
 .box:hover { 
 transform: scale(1.08); 
 } 
-
+.dashboard-icons{
+    width:40px;
+    height:40px;
+    fill:white;
+}
 .box:nth-child(1) { 
 background-color: var(--one-use-color); 
+background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 } 
 .box:nth-child(2) { 
-background-color: var(--two-use-color); 
+background-color: var(--two-use-color);
+background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
 } 
 .box:nth-child(3) { 
-background-color: var(--one-use-color); 
+background-color: var(--one-use-color);
+background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%); 
 } 
 .box:nth-child(4) { 
 background-color: var(--two-use-color); 
+background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
 } 
 
 .box img { 
@@ -399,6 +407,10 @@ border-radius: 4px;
 /* Rotate arrow when the dropdown is open */
 .dropdown.open .arrow {
     transform: rotate(180deg);
+}
+
+h3{
+    font-size: medium;
 }
 
 /* Responsive CSS Here */
